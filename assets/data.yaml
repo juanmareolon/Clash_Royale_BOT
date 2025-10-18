@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 112
+names: ['Archer_Queen', 'Archers', 'Arrows', 'Baby_Dragon', 'Balloon', 'Bandit', 'Barbarian_Barrel', 'Barbarian_Hut', 'Barbarians', 'Bats', 'Battle_Healer', 'Battle_Ram', 'Bomb_Tower', 'Bomber', 'Bowler', 'Cannon', 'Cannon_Cart', 'Clone_Spell', 'Dark_Prince', 'Dart_Goblin', 'Earthquake', 'Electro_Dragon', 'Electro_Giant', 'Electro_Spirit', 'Electro_Wizard', 'Elite_Barbarians', 'Elixir_Golem', 'Elixir_Pump', 'Evolved_Archers', 'Evolved_Barbarians', 'Evolved_Bats', 'Evolved_Bomber', 'Evolved_Firecracker', 'Evolved_Ice_Spirit', 'Evolved_Knight', 'Evolved_Recruits', 'Evolved_Royal_Giant', 'Evolved_Skeletons', 'Evolved_Tesla', 'Evolved_Zap', 'Executioner', 'Fire_Spirit', 'Fireball', 'Firecracker', 'Fisherman', 'Flying_Machine', 'Freeze', 'Giant', 'Giant_Skeleton', 'Goblin_Barrel', 'Goblin_Cage', 'Goblin_Drill', 'Goblin_Gang', 'Goblin_Giant', 'Goblin_Hut', 'Goblins', 'Golden_Knight', 'Golem', 'Graveyard', 'Guards', 'Heal_Spirit', 'Hog_Rider', 'Hunter', 'Ice_Golem', 'Ice_Spirit', 'Ice_Wizard', 'Inferno_Dragon', 'Inferno_Tower', 'Knight', 'Lava_Hound', 'Lightning', 'Little_Prince', 'Log', 'Lumberjack', 'Magic_Archer', 'Mega_Knight', 'Mega_Minion', 'Mighty_Miner', 'Miner', 'Mini_Pekka', 'Minion_Horde', 'Minions', 'Musketeer', 'Pekka', 'Phoenix', 'Poison', 'Prince', 'Princess', 'Ram_Rider', 'Rascals', 'Royal_Delivery', 'Royal_Ghost', 'Royal_Giant', 'Royal_Hogs', 'Royal_Recruits', 'Skeleton_Army', 'Skeleton_Barrel', 'Skeleton_Dragons', 'Skeletons', 'Snowball', 'Sparky', 'Spear_Goblins', 'Tesla', 'Tombstone', 'Tornado', 'Valkyrie', 'Wall_Breakers', 'Witch', 'Wizard', 'X_Bow', 'Zap', 'Zappies']
+
+roboflow:
+  workspace: clashroyaleenemydetector
+  project: cr-card-detection-8000-img-57ki6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/clashroyaleenemydetector/cr-card-detection-8000-img-57ki6/dataset/1
